@@ -1,0 +1,50 @@
+.container {
+    border: 1rem solid blue;
+    background: white;
+    margin-top: 13%;
+
+    width: 50%;
+    h5{
+        color:red;
+        text-transform: uppercase;
+
+
+    }
+
+}
+//menu
+.menu {
+width:fit-content;
+margin: 0 auto;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+
+
+
+  }
+
+  li {
+    float: left;
+
+  }
+
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: blue;
+      color: red;
+    }
+
+  }
+
+}
+
